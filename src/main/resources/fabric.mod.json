@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "dinamiclight",
+  "version": "1.0.0",
+  "name": "DinamicLight",
+  "description": "Dynamic lighting with four modes.",
+  "authors": [
+    "DinamicLight"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.dinamiclight.DinamicLightClient"
+    ]
+  },
+  "icon": "assets/dinamiclight/icon.png",
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
